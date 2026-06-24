@@ -1,0 +1,32 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node node_modules/react-scripts/bin/react-scripts.js start",
+    "build": "node node_modules/react-scripts/bin/react-scripts.js build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eject": "node node_modules/react-scripts/bin/react-scripts.js eject"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all",
+    "not ie <= 11"
+  ],
+  "dependencies": {
+    "@react-oauth/google": "^0.13.5",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "axios": "^1.18.1",
+    "jwt-decode": "^4.0.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-router-dom": "^7.18.0",
+    "react-scripts": "^5.0.1"
+  }
+}
